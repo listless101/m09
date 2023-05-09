@@ -46,7 +46,8 @@ function Pokemon(name, level) {
 const pikachu = new Pokemon('Pikachu', 5);
 const bulbasaur = new Pokemon('Bulbasaur', 3);
 const charmander = new Pokemon('Charmander', 2);
-  
+const pokemonArr = [pikachu, bulbasaur, charmander];  
+console.log(pokemonArr);
 // Invoke tackle method of one pokemon object
 pikachu.tackle(bulbasaur);
 // Reduce health to 0
